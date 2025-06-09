@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.profile_card {
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #d3d3d3, #b3d9ff);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 10px 10px;
+}
+.profile-picture{
+    background: transparent;
+     background: linear-gradient(to bottom, #d3d3d3, #b3d9ff);
+}
+
+.profile-card h1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.profile-card h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.profile-card .contact-info,
+.profile-card .social-media,
+.profile-card .linkedin {
+    font-size: 14px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.social-icons {
+    gap: 25px;
+}
